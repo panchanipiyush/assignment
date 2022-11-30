@@ -1,4 +1,4 @@
-# include<stdio.h>;
+# include<stdio.h>
 int main()
 {
 int  phy,che,bio,mat,eng,total;
@@ -20,7 +20,9 @@ avg=total/5;
 per=(total*100)/500;
 printf("\n average = %.2f",avg);
 printf("\n percentage = %0.2f",per);
-
+if(phy>33 || che>33 || bio>33 || mat>33 || eng>33){
+    printf("\n your are filed");
+}
 if (per>100){
     printf("\n your entered invalid number\n");
 }
