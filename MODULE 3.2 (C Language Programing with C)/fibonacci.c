@@ -1,24 +1,33 @@
-# include<stdio.h>
+#include <stdio.h>
 int main()
 {
-    int f=0,s=1,next,i,no;
+    int first = 0, second = 1, result, i, no;
     printf("Enter number of terms : ");
-    scanf("%d",&no);
+    scanf("%d", &no);
 
-    printf("First %d terms of Fibonacci series: ",no);
-    for(i = 0 ; i<no  ;i++)
+    printf("First %d terms of Fibonacci series: ", no);
+    for (i = 0; i < no; i++) 
     {
-        if(i<=1)
+        if (i <= 1)      
         {
-            next=i;
-        }
+            result = i;  
+        }                    
         else
-        {
-            next = f+s;
-            f=s;
-            s=next;
+        {                    
+            result = first + second;
+            first = second;
+            second = result;
         }
-        printf("%d",next);
+        printf("%d ", result);
     }
     return 0;
 }
+// to not perform if condition than perform direct
+// for(i=1;i<=num;i++)
+//{
+// printf("%d",next);
+// next=f+s;
+// f=s;
+// s=next;
+//}
+ 

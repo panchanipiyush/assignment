@@ -1,3 +1,4 @@
+// Write a program to find simple interest.
 # include<stdio.h>
 # include<math.h>
 int main()

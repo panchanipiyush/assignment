@@ -1,13 +1,13 @@
-# include<stdio.h>
+#include <stdio.h>
 int main()
 {
-    float year,days;
+    float year, days;
 
     printf("Enter the days :");
-    scanf("%f",&days);
+    scanf("%f", &days);
 
-    year = days/365;
-    printf("Year of :%.3f",year);
+    year = days / 365;
+    printf("Year of :%.3f", year);
 
     return 0;
 }

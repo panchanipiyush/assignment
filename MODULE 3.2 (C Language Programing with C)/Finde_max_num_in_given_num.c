@@ -1,13 +1,13 @@
 # include<stdio.h>
 int main()
 {
-    int i=0,max=0,n=0,nums[100]={0};
+    int i=0,max=0,n=0,nums[100];
     printf("Please enter the value of number N: ");
     scanf("%d",&n);
     
     for(i;i<n;i++)
     {
-        printf("\nPlease enter the value of %d :",i+1);
+        printf("\nPlease enter the value of %d: ",i+1);
         scanf("%d",&nums[i]);
     }
     max = nums[0];
