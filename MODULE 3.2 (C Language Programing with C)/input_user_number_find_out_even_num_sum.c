@@ -14,6 +14,6 @@ int main()
         }
         
     }
-    printf("Sum of Even Number from 1 To %d is %d\n",num,sum);
+    printf("Sum of Even Number from 1 To %d is: %d\n",num,sum);
     return 0;
 }

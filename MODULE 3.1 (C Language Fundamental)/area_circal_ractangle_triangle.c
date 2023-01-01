@@ -6,7 +6,7 @@ int main()
 	// float base, height, area;
 	int choice;
 
-	printf("Enter\n");
+	printf("Enter for choice\n");
 	printf("1. To find area of triangle \n2. To find area of Square\n");
 	printf("3. To find area of circle \n4. To find area of rectangle\n");
 

@@ -16,7 +16,7 @@ int main()
     printf("Enter your time in year : ");
     scanf("%f",&t);
     si=(p*r*t)/100;
-    ci=p*(pow(1+r/100,t)-1);
+    ci=p*pow(1+r/100,t)-p; //ci=p*(pow(1+r/100,t)-1); p*((pow((1+r/100),t)-1));
     printf("simple interest of %.3f \n",si);
     printf("compund interest of %0.3f \n",ci);
 
