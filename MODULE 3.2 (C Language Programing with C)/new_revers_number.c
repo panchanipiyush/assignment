@@ -10,7 +10,6 @@ int main()
         rem = num % 10;
         rev = rev * 10 + rem;
         num = num / 10;
-
         printf("%d ", rem);
     }
 

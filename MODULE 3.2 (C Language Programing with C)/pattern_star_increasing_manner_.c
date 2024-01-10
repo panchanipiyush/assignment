@@ -1,4 +1,4 @@
-# include<stdio.h>
+/*# include<stdio.h>
 int main()
 {
     int i,j,k;
@@ -14,7 +14,7 @@ for (i=1;i<=5;i++)
      printf("\n");
 }
 return 0;
-}
+}*/
 /*int n=4;
     for (int i = 0; i < 5; i++)
     {
@@ -29,3 +29,24 @@ return 0;
         }
         printf("\n");
     }*/
+#include <stdio.h>
+int main()
+{
+    int i, j, rows, k = 0;
+    //printf("Enter the number of rows: ");
+    //scanf("%d", &rows);
+    for (i = 1; i <= 5; ++i, k = 0)
+    {
+        for (j = 1; j <= 5 - i; ++j)
+        {
+            printf("  ");
+        }
+        while (k != 2 * i - 1)
+        {
+            printf("*");
+            ++k;
+        }
+        printf("\n");
+    }
+    return 0;
+}

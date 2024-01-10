@@ -2,7 +2,7 @@
 int main()
 {
     int n,Last,sum;
-    printf("Enater the number: ");
+    printf("Enter the number: ");
     scanf("%d",&n);
 
     Last = n%10;

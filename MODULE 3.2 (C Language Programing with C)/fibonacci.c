@@ -6,7 +6,7 @@ int main()
     scanf("%d", &no);
 
     printf("First %d terms of Fibonacci series: ", no);
-    for (i = 0; i < no; i++) 
+    for (i = 1; i < no; i++) 
     {
         if (i <= 1)      
         {
